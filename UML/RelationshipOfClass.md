@@ -26,7 +26,7 @@ class EPower{
 }
 ```
 
-![](Rely.svg)
+![依赖关系](Rely.svg)
 
 
 # 关联关系
@@ -54,7 +54,7 @@ class Computer{
 	}
 }
 ```
-![](Association.svg)
+![关联](Association.svg)
 
 # 泛化(继承)关系
 
@@ -83,7 +83,7 @@ class Human{
 }
 ```
 
-![](inherit.svg)
+![泛化](inherit.svg)
 
 # 实现关系
 
@@ -110,5 +110,5 @@ class Laptop implements Computer{
 }
 ```
 
-![](Implments.svg)
+![实现](Implements.svg)
 
