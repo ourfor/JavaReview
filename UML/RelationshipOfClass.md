@@ -12,11 +12,11 @@ Java考试的内容实在太多了，今天先把各种了之间的关系复习�
 Code of Computer:
 ```java
 class Computer{
-	boolean switch=false;
+    boolean Switch;
 
-	boolean Boot(EPower e){
-		return (e.state==true)&&switch?true:false;	
-	}
+    boolean Boot(EPower e){
+        return (e.state==true)&&Switch?true:false;
+    }
 }
 ```
 Code of EPower:
@@ -46,7 +46,7 @@ class Cpu{
 ```
 Code of Computer:
 
-```Computer
+```java
 class Computer{
 	Cpu intel =  new Cpu();
 	boolean boot(){
@@ -74,12 +74,11 @@ Code of Human{
 
 ```java
 class Human{
-	String name
+	String name;
 	int age;
 	void Speak(){
 		System.out.println("Hello");
 	}
-}
 }
 ```
 
@@ -94,11 +93,11 @@ Code of Computer:
 
 ```java
 interface Computer{
-	String Cpu
-	String Input
-	String Output
+    String Cpu="x64";
+    String Input="Keyboard";
+    String Output="Monitor";
 
-	void Run();
+    void Run();
 }
 ```
 
@@ -106,7 +105,7 @@ Code of Laptop:
 
 ```java
 class Laptop implements Computer{
-	public void Run{}
+    public void Run(){}
 }
 ```
 
