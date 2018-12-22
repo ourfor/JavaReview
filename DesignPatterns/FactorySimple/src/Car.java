@@ -1,3 +1,0 @@
-interface Car {
-    void Run();
-}
