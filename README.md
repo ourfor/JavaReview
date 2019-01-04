@@ -68,4 +68,11 @@
     <th>Adapter</th>
     <th>Interpreter<br>Template Method</th>
   </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>对象</td>
+    <td>Abstract Factory<br>Builder<br>Prototype<br>Singleton</td>
+    <td>Adapter<br>Bridge<br>Composite<br>Decorator<br>Facade<br>Flyweight<br>Proxy</td>
+    <td>Chain of Responsibility<br>Command<br>Iterator<br>Mediator<br>Memento<br>Observer<br>State<br>Strategy<br>Visitor</td>
+  </tr>
   </table>
