@@ -48,3 +48,24 @@
                 
 </td></tr></tbody>
 </table>
+
+
+
+<table>
+  <tr>
+    <th colspan=2 rowspan=2>&nbsp;</th>
+    <th colspan=3>目的</th>
+  </tr>
+  <tr>
+    <th>创建型</th>
+    <th>结构型</th>
+    <th>行为型</th>
+  </tr>
+  <tr>
+    <th>范围</th>
+    <th>类</th>
+    <th>Factory Method</th>
+    <th>Adapter</th>
+    <th>Interpreter<br>Template Method</th>
+  </tr>
+  </table>
