@@ -1,5 +1,10 @@
 public class Call {
     public static void main(String args[]){
+
+        SingleEnum s = SingleEnum.INSTANCE;
+
+        s.print();
+
         SingleStarvation one = SingleStarvation.getInstance();
         one.Info();
         SingleHunger two = SingleHunger.getInstance();

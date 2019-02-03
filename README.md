@@ -48,3 +48,31 @@
                 
 </td></tr></tbody>
 </table>
+
+
+
+<table>
+  <tr>
+    <th colspan=2 rowspan=2>&nbsp;</th>
+    <th colspan=3>目的</th>
+  </tr>
+  <tr>
+    <th>创建型</th>
+    <th>结构型</th>
+    <th>行为型</th>
+  </tr>
+  <tr>
+    <th>范围</th>
+    <th>类</th>
+    <th>Factory Method</th>
+    <th>Adapter</th>
+    <th>Interpreter<br>Template Method</th>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>对象</td>
+    <td>Abstract Factory<br>Builder<br>Prototype<br>Singleton</td>
+    <td>Adapter<br>Bridge<br>Composite<br>Decorator<br>Facade<br>Flyweight<br>Proxy</td>
+    <td>Chain of Responsibility<br>Command<br>Iterator<br>Mediator<br>Memento<br>Observer<br>State<br>Strategy<br>Visitor</td>
+  </tr>
+  </table>
